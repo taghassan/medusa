@@ -1,6 +1,5 @@
 import {
   FilterableStockLocationProps,
-  RemoteQueryFilters,
   StockLocationDTO,
   UpdateStockLocationInput,
   UpsertStockLocationAddressInput,
@@ -61,7 +60,7 @@ export const updateStockLocationsWorkflow = createWorkflow(
   ): WorkflowResponse<StockLocationDTO[]> => {
     const stockLocationsQuery = useQueryGraphStep({
       entity: "stock_location",
-      filters: input.selector as RemoteQueryFilters<"stock_location">,
+      filters: input.selector,
       fields: ["id", "address.id"],
     }).config({ name: "get-stock-location" })
 
