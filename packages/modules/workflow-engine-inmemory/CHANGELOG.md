@@ -1,5 +1,14 @@
 # @medusajs/workflow-engine-inmemory
 
+## 2.8.5
+
+### Patch Changes
+
+- [#12675](https://github.com/medusajs/medusa/pull/12675) [`1a7847660890ae84648123567ce8dc4c9a0eca03`](https://github.com/medusajs/medusa/commit/1a7847660890ae84648123567ce8dc4c9a0eca03) Thanks [@adrien2p](https://github.com/adrien2p)! - fix(workflow-sdk): Async propagation
+
+- Updated dependencies [[`cbf3644eb7c8a24eaed879647b58c9ece3373c0e`](https://github.com/medusajs/medusa/commit/cbf3644eb7c8a24eaed879647b58c9ece3373c0e)]:
+  - @medusajs/framework@2.8.5
+
 ## 2.8.4
 
 ### Patch Changes
